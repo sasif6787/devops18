@@ -27,7 +27,7 @@ status = "Enabled"
 terraform {
 backend "s3" {
 region = "us-east-1"
-bucket = "mustafashaik1122.monobucket"
+bucket = "shaik-asif-926145953975-bucket"
 key = "prod/terraform.tfstate"
 }
 }
