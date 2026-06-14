@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "shaik.flm"
+  bucket = "shaik-asif-926145953975-bucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
