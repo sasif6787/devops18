@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "shaiku.terraform.flm.bucket"
+  bucket = "shaik.flm"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
